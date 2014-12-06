@@ -21,8 +21,8 @@ input:focus { background: red; color: white; }
 }
 .footer:active,.footer:hover,.footer:focus { opacity: 1; }
 
-.footer:hover #cetin { animation: ca .5s infinite ease alternate; }
-.footer:hover #sunny { animation: sa .5s infinite ease alternate; }
+.footer:focus #cetin { animation: ca .5s infinite ease alternate; }
+.footer:focus #sunny { animation: sa .5s infinite ease alternate; }
 @keyframes ca { to { transform: scale(.9); } }
 @keyframes sa { to { transform: scale(1.1); } }
 
