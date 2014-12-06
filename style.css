@@ -42,7 +42,7 @@ input:focus { background: red; color: white; }
   background-size: 64px;
   position: absolute;
   bottom: calc(-32px + 1em);
-  transform: translate(-30px)
+  transform: translate(-29px)
 }
 
 .line { padding-top: 30px; }
