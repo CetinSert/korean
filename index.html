@@ -19,12 +19,13 @@
       <div class="line"><span>1<sup>st</sup>-date Korean!</span></div>
     </div>
     <script type="text/javascript">
-      var io = $([inp,out]);
-      function opacity(v) { io.style.opacity = v; }
-      function content(v) { io[0].val(v[0]); io[1].val(v[1]); }
+      var io = [inp,out];
+      function opacity(v) { io[0].style.opacity = v; io[1].style.opacity = v; }
+      function content(v) { io[0].value = v[0]; io[1].value = v[1]; }
                  content(       ["an nyeong", "안녕"]);
       setTimeout(opacity,  600, 0);
       setTimeout(content, 1000, [""         , ""    ]);
+      setTimeout(opacity, 1000, 1);
     </script>
   </body>
 </html>
