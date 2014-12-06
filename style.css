@@ -7,16 +7,19 @@ html, body { padding: 0; margin: 0; }
   border: 0 solid lightgray;
   text-align: center;
 }
-input:focus { background: red; }
+input:focus { background: red; color: white; }
 
 #inp, #out { font-size: 5vh; }
 
 .footer {
   text-align: center;
   border-top: 1px solid lightgray;
+  background: #444;
+  padding: 3em 0em;
+  color: white;
+  opacity: 0.1;
 }
-
-#sunny,#cetin { : 20px; }
+.footer:active { opacity: 1; }
 
 #sunny { position: relative; }
 #sunny:before {
@@ -39,6 +42,7 @@ input:focus { background: red; }
   background-size: 64px;
   position: absolute;
   bottom: calc(-32px + 1em);
+  transform: translate(-30px)
 }
 
-.line { padding-top: 32px; border: none; }
+.line { padding-top: 30px; }
