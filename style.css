@@ -10,3 +10,24 @@ html, body { padding: 0; margin: 0; }
   font-size: 10vh;
 }
 input:focus { background: red; }
+
+div {
+  text-align: center;
+  border-top: 1px solid lightgray;
+}
+div:after {
+  content: "";
+  background: url(https://avatars3.githubusercontent.com/u/1613326?v=3&s=32);
+  display: block;
+  height: 32px;
+  width: 32px;
+  float: right;
+}
+div:before {
+  content: "";
+  background: url(https://avatars2.githubusercontent.com/u/27027?v=3&s=32);
+  display: block;
+  height: 32px;
+  width: 32px;
+  float: right;
+}
