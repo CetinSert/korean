@@ -23,8 +23,8 @@ input:focus { background: red; color: white; }
 
 .footer:focus #cetin { animation: ca .5s infinite ease alternate; }
 .footer:focus #sunny { animation: sa .5s infinite ease alternate; }
-@keyframes ca { to { transform: scale(.9); } }
-@keyframes sa { to { transform: scale(1.1); } }
+@keyframes ca { to { transform: translateX(+2px); } }
+@keyframes sa { to { transform: translateX(-2px); } }
 
 #sunny { position: relative; }
 #sunny:before {
