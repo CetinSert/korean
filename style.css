@@ -4,30 +4,45 @@ html, body { padding: 0; margin: 0; }
   display: block;
   height: 40%;
   width: 100%;
-  font-size: 40px;
   border: 0 solid lightgray;
   text-align: center;
-  font-size: 10vh;
 }
-input:focus { background: red; }
+input:focus { background: red; color: white; }
 
-div {
+#inp, #out { font-size: 5vh; }
+
+.footer {
   text-align: center;
   border-top: 1px solid lightgray;
+  background: #444;
+  padding: 3em 0em;
+  color: white;
+  opacity: 0.001;
 }
-div:after {
+.footer:active,.footer:hover,.footer:focus { opacity: 1; }
+
+#sunny { position: relative; }
+#sunny:before {
   content: "";
-  background: url(https://avatars3.githubusercontent.com/u/1613326?v=3&s=32);
-  display: block;
-  height: 32px;
-  width: 32px;
-  float: right;
+  background: url(//kr.corsis.eu/Sunny.png);
+  display: inline-block;
+           height: 64px;
+            width: 64px;
+  background-size: 64px;
+  position: absolute;
+  bottom: calc(-32px + 1em);
 }
-div:before {
+#cetin { position: relative; }
+#cetin:before {
   content: "";
-  background: url(https://avatars2.githubusercontent.com/u/27027?v=3&s=32);
-  display: block;
-  height: 32px;
-  width: 32px;
-  float: right;
+  background: url(https://avatars2.githubusercontent.com/u/27027?v=3&s=460);
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+  background-size: 64px;
+  position: absolute;
+  bottom: calc(-32px + 1em);
+  transform: translate(-28px)
 }
+
+.line { padding-top: 30px; }
