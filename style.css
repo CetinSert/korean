@@ -11,23 +11,34 @@ html, body { padding: 0; margin: 0; }
 }
 input:focus { background: red; }
 
-div {
+.footer {
   text-align: center;
   border-top: 1px solid lightgray;
 }
-div:after {
+
+#sunny,#cetin { : 20px; }
+
+#sunny { position: relative; }
+#sunny:before {
   content: "";
-  background: url(https://avatars3.githubusercontent.com/u/1613326?v=3&s=32);
-  display: block;
-  height: 32px;
-  width: 32px;
-  float: right;
+  background: url(//kr.corsis.eu/Sunny.png);
+  display: inline-block;
+           height: 64px;
+            width: 64px;
+  background-size: 64px;
+  position: absolute;
+  bottom: calc(-32px + 1em);
 }
-div:before {
+#cetin { position: relative; }
+#cetin:before {
   content: "";
-  background: url(https://avatars2.githubusercontent.com/u/27027?v=3&s=32);
-  display: block;
-  height: 32px;
-  width: 32px;
-  float: right;
+  background: url(https://avatars2.githubusercontent.com/u/27027?v=3&s=460);
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+  background-size: 64px;
+  position: absolute;
+  bottom: calc(-32px + 1em);
 }
+
+.line { padding-top: 32px; border: none; }
