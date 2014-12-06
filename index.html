@@ -19,8 +19,10 @@
       <div class="line"><span>1<sup>st</sup>-date Korean!</span></div>
     </div>
     <script type="text/javascript">
-      inp.val("an nyeong");
-      setTimeout(f, 1000);
+      $(inp).val("an nyeong");
+      $(out).val("안녕");
+      function clear() { $(inp).val(""); $(out).val(""); }
+      setTimeout(clear, 1000);
     </script>
   </body>
 </html>
