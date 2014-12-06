@@ -21,7 +21,7 @@ input:focus { background: red; color: white; }
 }
 .footer:active,.footer:hover,.footer:focus { opacity: 1; }
 
-#sunny { position: relative; }
+#sunny { position: relative; display: none; }
 #sunny:before {
   content: "";
   background: url(//kr.corsis.eu/Sunny.png);
@@ -32,7 +32,7 @@ input:focus { background: red; color: white; }
   position: absolute;
   bottom: calc(-32px + 1em);
 }
-#cetin { position: relative; }
+#cetin { position: relative; display: none; }
 #cetin:before {
   content: "";
   background: url(https://avatars2.githubusercontent.com/u/27027?v=3&s=460);
